@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+*.grib
+*.grib2
+.DS_Store

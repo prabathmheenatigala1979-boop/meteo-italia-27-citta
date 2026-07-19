@@ -1,0 +1,26 @@
+METEO ITALIA 24 — GITHUB SETUP
+
+1. මෙම ZIP ගොනුව Download කරන්න.
+2. ZIP එක Extract All කරන්න.
+3. Extract කළ folder එක ඇතුළේ තිබෙන සියලුම ගොනු සහ folders තෝරන්න:
+   .github
+   docs
+   scripts
+   .gitignore
+   README.md
+   requirements.txt
+4. GitHub repository පිටුවට යන්න.
+5. Add file > Upload files තෝරන්න.
+6. තෝරාගත් සියලුම ගොනු/folders drag and drop කරන්න.
+7. Commit message ලෙස:
+   Add automatic ECMWF weather system
+   යොදන්න.
+8. Commit changes ඔබන්න.
+
+Upload කළ වහාම GitHub Actions පළමු test run එක ආරම්භ කළ යුතුය.
+ඊළඟ පියවරේදී Actions result එක සහ GitHub Pages සක්‍රිය කිරීම පරීක්ෂා කරමු.
+
+වැදගත්:
+- ZIP ගොනුවම GitHub වෙත upload නොකරන්න.
+- මුලින් Extract කර, ඇතුළත තිබෙන ගොනු/folders upload කරන්න.
+- API key, password හෝ payment card එකක් අවශ්‍ය නැහැ.
