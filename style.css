@@ -1,0 +1,366 @@
+\
+:root {
+  --navy-950: #041022;
+  --navy-900: #07152d;
+  --navy-800: #0b2246;
+  --navy-700: #10315f;
+  --cyan: #43d7ff;
+  --yellow: #ffd447;
+  --white: #f7fbff;
+  --muted: #aabbd2;
+  --panel: rgba(11, 34, 70, 0.82);
+  --border: rgba(112, 205, 255, 0.22);
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--white);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(67, 215, 255, 0.14), transparent 28rem),
+    radial-gradient(circle at 88% 18%, rgba(255, 212, 71, 0.08), transparent 25rem),
+    linear-gradient(180deg, var(--navy-900), var(--navy-950) 65%);
+}
+
+.tricolore {
+  height: 6px;
+  background: linear-gradient(90deg, #159447 0 33.333%, #f5f5f5 33.333% 66.666%, #cf2b36 66.666%);
+}
+
+.hero,
+main,
+footer {
+  width: min(1220px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.hero {
+  padding: 42px 0 22px;
+}
+
+.brand-kicker {
+  display: inline-block;
+  color: var(--cyan);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.22em;
+}
+
+h1 {
+  margin: 8px 0 8px;
+  max-width: 900px;
+  font-size: clamp(2.15rem, 6vw, 4.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+}
+
+.status-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin-top: 28px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(4, 16, 34, 0.58);
+  backdrop-filter: blur(12px);
+}
+
+.status-dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-right: 9px;
+  border-radius: 50%;
+  background: var(--yellow);
+  box-shadow: 0 0 18px rgba(255, 212, 71, 0.8);
+}
+
+.status-dot.ok {
+  background: #4ee094;
+  box-shadow: 0 0 18px rgba(78, 224, 148, 0.75);
+}
+
+.model-run {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.notice {
+  margin-top: 14px;
+  padding: 14px 17px;
+  border-left: 4px solid var(--yellow);
+  border-radius: 10px;
+  color: #fff5bf;
+  background: rgba(255, 212, 71, 0.08);
+  line-height: 1.55;
+}
+
+.controls {
+  margin: 12px 0 26px;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 9px;
+  font-weight: 800;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 580px;
+  padding: 0 16px;
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.search-box:focus-within {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 4px rgba(67, 215, 255, 0.11);
+}
+
+.search-box input {
+  width: 100%;
+  padding: 15px 0;
+  border: 0;
+  outline: 0;
+  color: var(--white);
+  font: inherit;
+  background: transparent;
+}
+
+.search-box input::placeholder {
+  color: #8397b2;
+}
+
+.result-count {
+  min-height: 1.4em;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr));
+  gap: 18px;
+}
+
+.city-card {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background:
+    linear-gradient(145deg, rgba(16, 49, 95, 0.82), rgba(5, 20, 43, 0.92));
+  box-shadow: var(--shadow);
+}
+
+.city-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 20px 20px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.city-heading h2 {
+  margin: 0;
+  font-size: 1.55rem;
+}
+
+.region {
+  color: var(--cyan);
+  font-size: 0.84rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+.days {
+  display: grid;
+  gap: 0;
+}
+
+.day {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 13px;
+  padding: 17px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.day:last-child {
+  border-bottom: 0;
+}
+
+.weather-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.07);
+  font-size: 1.85rem;
+}
+
+.day-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 12px;
+}
+
+.day-label {
+  color: var(--yellow);
+  font-weight: 900;
+}
+
+.day-date {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.description {
+  margin: 4px 0 9px;
+  font-weight: 750;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.metric {
+  padding: 6px 9px;
+  border-radius: 999px;
+  color: #dceeff;
+  background: rgba(255, 255, 255, 0.07);
+  font-size: 0.79rem;
+  white-space: nowrap;
+}
+
+.temperature {
+  color: #fff;
+  font-weight: 900;
+}
+
+.state-card,
+.official-box {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--panel);
+}
+
+.state-card {
+  text-align: center;
+}
+
+.spinner {
+  width: 38px;
+  height: 38px;
+  margin: 0 auto 13px;
+  border: 4px solid rgba(255, 255, 255, 0.14);
+  border-top-color: var(--cyan);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.error-card {
+  border-color: rgba(255, 120, 120, 0.35);
+}
+
+.official-box {
+  margin-top: 28px;
+  line-height: 1.65;
+}
+
+.official-box h2 {
+  margin-top: 0;
+}
+
+.official-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.official-links a {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--white);
+  font-weight: 800;
+  text-decoration: none;
+  background: rgba(67, 215, 255, 0.08);
+}
+
+.official-links a:hover,
+.official-links a:focus-visible {
+  border-color: var(--cyan);
+  background: rgba(67, 215, 255, 0.15);
+}
+
+footer {
+  padding: 34px 0 48px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 560px) {
+  .hero,
+  main,
+  footer {
+    width: min(100% - 20px, 1220px);
+  }
+
+  .hero {
+    padding-top: 28px;
+  }
+
+  .status-panel {
+    align-items: flex-start;
+  }
+
+  .day {
+    padding-inline: 15px;
+  }
+
+  .city-heading {
+    padding-inline: 15px;
+  }
+}

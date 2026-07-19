@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Previsioni indicative ECMWF per 27 città italiane, aggiornate automaticamente.">
+  <meta name="theme-color" content="#07152d">
+  <title>Previsioni Meteo Italia — 27 città</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tricolore" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="brand-row">
+      <div class="brand-text">
+        <span class="brand-kicker">METEO ITALIA 24</span>
+        <h1>Previsioni per 27 città</h1>
+        <p class="subtitle">Tre giorni • modello ECMWF IFS • aggiornamento automatico</p>
+      </div>
+    </div>
+
+    <div class="status-panel">
+      <div>
+        <span class="status-dot" id="status-dot"></span>
+        <strong id="update-label">Caricamento dei dati…</strong>
+      </div>
+      <div id="model-run" class="model-run"></div>
+    </div>
+
+    <div class="notice" id="notice">
+      Previsioni indicative di modello. Non costituiscono un'allerta ufficiale.
+    </div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Ricerca città">
+      <label for="city-search">Trova la tua città</label>
+      <div class="search-box">
+        <span aria-hidden="true">🔎</span>
+        <input id="city-search" type="search" placeholder="Scrivi una città o una regione…" autocomplete="off">
+      </div>
+      <p id="result-count" class="result-count"></p>
+    </section>
+
+    <section id="loading" class="state-card">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Caricamento delle previsioni…</p>
+    </section>
+
+    <section id="error" class="state-card error-card" hidden>
+      <h2>Dati temporaneamente non disponibili</h2>
+      <p id="error-message">Riprova tra qualche minuto.</p>
+    </section>
+
+    <section id="city-grid" class="city-grid" aria-live="polite"></section>
+
+    <section class="official-box">
+      <h2>Informazione importante</h2>
+      <p>
+        Questa pagina mostra un'elaborazione automatica e indicativa del modello ECMWF.
+        Per allerte, criticità e istruzioni di sicurezza consulta sempre le fonti ufficiali.
+      </p>
+      <div class="official-links">
+        <a href="https://www.protezionecivile.gov.it/" target="_blank" rel="noopener noreferrer">Protezione Civile</a>
+        <a href="https://www.meteoam.it/" target="_blank" rel="noopener noreferrer">MeteoAM</a>
+        <a href="https://www.ecmwf.int/en/forecasts/datasets/open-data" target="_blank" rel="noopener noreferrer">ECMWF Open Data</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="attribution">Dati: ECMWF Open Data — CC BY 4.0.</p>
+    <p>Le condizioni locali possono cambiare rapidamente. Verifica sempre gli aggiornamenti ufficiali.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
