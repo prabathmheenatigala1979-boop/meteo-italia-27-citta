@@ -1,4 +1,3 @@
-\
 const DATA_URL = `data/weather.json?v=${Date.now()}`;
 
 const grid = document.querySelector("#city-grid");
