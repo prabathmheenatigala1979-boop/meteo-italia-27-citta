@@ -1,5 +1,1123 @@
 {
-  "status": "waiting",
-  "message": "Il primo aggiornamento sarà creato automaticamente da GitHub Actions.",
-  "cities": []
+  "status": "ok",
+  "title": "Previsioni Meteo Italia — 27 città",
+  "generated_at_italy": "2026-07-19T20:53+02:00",
+  "generated_at_label": "19/07/2026 alle ore 20:53",
+  "timezone": "Europe/Rome",
+  "model": "ECMWF IFS Open Data 0,25°",
+  "model_run_utc": "2026-07-19T00:00+00:00",
+  "model_run_label": "19/07/2026 — 00:00 UTC",
+  "source_mirror": "aws",
+  "forecast_type": "indicative_model_output",
+  "notice_it": "Previsioni indicative elaborate automaticamente dal modello ECMWF IFS. Non costituiscono un'allerta ufficiale. Per allerte e indicazioni di sicurezza consultare sempre la Protezione Civile e le autorità locali.",
+  "attribution": "Dati: ECMWF Open Data, licenza CC BY 4.0. Elaborazione automatica: Meteo Italia 24.",
+  "cities": [
+    {
+      "name": "Ancona",
+      "region": "Marche",
+      "latitude": 43.6158,
+      "longitude": 13.5189,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.0,
+          "temperature_max_c": 32.3,
+          "precipitation_mm": 0.2,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 3.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 23.5,
+          "temperature_max_c": 29.5,
+          "precipitation_mm": 1.0,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 20.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Pioggia probabile",
+          "icon": "🌧️",
+          "temperature_min_c": 20.5,
+          "temperature_max_c": 30.1,
+          "precipitation_mm": 8.5,
+          "wind_max_kmh": 9.0,
+          "cloud_cover_percent": 42.0
+        }
+      ]
+    },
+    {
+      "name": "Bari",
+      "region": "Puglia",
+      "latitude": 41.1171,
+      "longitude": 16.8719,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.3,
+          "temperature_max_c": 37.9,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 17.0,
+          "cloud_cover_percent": 16.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.7,
+          "temperature_max_c": 35.1,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 18.0,
+          "cloud_cover_percent": 18.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.5,
+          "temperature_max_c": 35.5,
+          "precipitation_mm": 0.1,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 8.0
+        }
+      ]
+    },
+    {
+      "name": "Bologna",
+      "region": "Emilia-Romagna",
+      "latitude": 44.4949,
+      "longitude": 11.3426,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 22.3,
+          "temperature_max_c": 31.8,
+          "precipitation_mm": 0.2,
+          "wind_max_kmh": 10.0,
+          "cloud_cover_percent": 26.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 21.0,
+          "temperature_max_c": 29.8,
+          "precipitation_mm": 2.0,
+          "wind_max_kmh": 10.0,
+          "cloud_cover_percent": 39.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 20.1,
+          "temperature_max_c": 29.4,
+          "precipitation_mm": 3.2,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 38.0
+        }
+      ]
+    },
+    {
+      "name": "Bolzano",
+      "region": "Trentino-Alto Adige",
+      "latitude": 46.4983,
+      "longitude": 11.3548,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 13.8,
+          "temperature_max_c": 25.4,
+          "precipitation_mm": 1.0,
+          "wind_max_kmh": 4.0,
+          "cloud_cover_percent": 18.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 12.1,
+          "temperature_max_c": 25.6,
+          "precipitation_mm": 0.3,
+          "wind_max_kmh": 5.0,
+          "cloud_cover_percent": 16.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 12.8,
+          "temperature_max_c": 22.9,
+          "precipitation_mm": 2.7,
+          "wind_max_kmh": 7.0,
+          "cloud_cover_percent": 27.0
+        }
+      ]
+    },
+    {
+      "name": "Brescia",
+      "region": "Lombardia",
+      "latitude": 45.5416,
+      "longitude": 10.2118,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 21.7,
+          "temperature_max_c": 30.8,
+          "precipitation_mm": 0.7,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 29.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 20.0,
+          "temperature_max_c": 30.1,
+          "precipitation_mm": 0.8,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 24.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 21.3,
+          "temperature_max_c": 29.3,
+          "precipitation_mm": 1.9,
+          "wind_max_kmh": 10.0,
+          "cloud_cover_percent": 42.0
+        }
+      ]
+    },
+    {
+      "name": "Cagliari",
+      "region": "Sardegna",
+      "latitude": 39.2238,
+      "longitude": 9.1217,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.3,
+          "temperature_max_c": 39.6,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 1.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.7,
+          "temperature_max_c": 37.7,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 18.0,
+          "cloud_cover_percent": 3.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.7,
+          "temperature_max_c": 38.0,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 11.0
+        }
+      ]
+    },
+    {
+      "name": "Campobasso",
+      "region": "Molise",
+      "latitude": 41.5603,
+      "longitude": 14.6627,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 21.3,
+          "temperature_max_c": 35.8,
+          "precipitation_mm": 0.1,
+          "wind_max_kmh": 16.0,
+          "cloud_cover_percent": 12.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 20.5,
+          "temperature_max_c": 33.3,
+          "precipitation_mm": 0.3,
+          "wind_max_kmh": 10.0,
+          "cloud_cover_percent": 19.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 20.8,
+          "temperature_max_c": 34.8,
+          "precipitation_mm": 0.7,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 11.0
+        }
+      ]
+    },
+    {
+      "name": "Catania",
+      "region": "Sicilia",
+      "latitude": 37.5079,
+      "longitude": 15.083,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 27.6,
+          "temperature_max_c": 38.7,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 9.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 29.4,
+          "temperature_max_c": 38.7,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 19.0,
+          "cloud_cover_percent": 4.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 29.0,
+          "temperature_max_c": 36.7,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 17.0,
+          "cloud_cover_percent": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Civitavecchia",
+      "region": "Lazio",
+      "latitude": 42.0924,
+      "longitude": 11.7954,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 27.4,
+          "temperature_max_c": 28.1,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 23.0,
+          "cloud_cover_percent": 5.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.9,
+          "temperature_max_c": 28.7,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 20.0,
+          "cloud_cover_percent": 14.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 27.3,
+          "temperature_max_c": 28.8,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Firenze",
+      "region": "Toscana",
+      "latitude": 43.7696,
+      "longitude": 11.2558,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 23.3,
+          "temperature_max_c": 34.3,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 19.0,
+          "cloud_cover_percent": 8.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 22.0,
+          "temperature_max_c": 34.5,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 17.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 22.7,
+          "temperature_max_c": 34.0,
+          "precipitation_mm": 0.1,
+          "wind_max_kmh": 26.0,
+          "cloud_cover_percent": 21.0
+        }
+      ]
+    },
+    {
+      "name": "Frosinone",
+      "region": "Lazio",
+      "latitude": 41.6396,
+      "longitude": 13.3412,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.2,
+          "temperature_max_c": 34.3,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 12.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 23.4,
+          "temperature_max_c": 34.3,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 18.0,
+          "cloud_cover_percent": 10.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.2,
+          "temperature_max_c": 34.2,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 4.0
+        }
+      ]
+    },
+    {
+      "name": "Genova",
+      "region": "Liguria",
+      "latitude": 44.4056,
+      "longitude": 8.9463,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 20.3,
+          "temperature_max_c": 28.6,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 34.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 19.4,
+          "temperature_max_c": 28.0,
+          "precipitation_mm": 0.1,
+          "wind_max_kmh": 9.0,
+          "cloud_cover_percent": 7.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 19.3,
+          "temperature_max_c": 27.4,
+          "precipitation_mm": 0.3,
+          "wind_max_kmh": 12.0,
+          "cloud_cover_percent": 21.0
+        }
+      ]
+    },
+    {
+      "name": "Latina",
+      "region": "Lazio",
+      "latitude": 41.4676,
+      "longitude": 12.9037,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.2,
+          "temperature_max_c": 31.7,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 10.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.1,
+          "temperature_max_c": 31.8,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 12.0,
+          "cloud_cover_percent": 1.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.6,
+          "temperature_max_c": 31.9,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Messina",
+      "region": "Sicilia",
+      "latitude": 38.1938,
+      "longitude": 15.554,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.1,
+          "temperature_max_c": 34.4,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 9.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.4,
+          "temperature_max_c": 35.5,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 9.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.9,
+          "temperature_max_c": 33.9,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 7.0,
+          "cloud_cover_percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Milano",
+      "region": "Lombardia",
+      "latitude": 45.4642,
+      "longitude": 9.19,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 21.7,
+          "temperature_max_c": 32.9,
+          "precipitation_mm": 1.4,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 26.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 23.0,
+          "temperature_max_c": 30.8,
+          "precipitation_mm": 0.1,
+          "wind_max_kmh": 12.0,
+          "cloud_cover_percent": 26.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 21.1,
+          "temperature_max_c": 29.2,
+          "precipitation_mm": 3.1,
+          "wind_max_kmh": 9.0,
+          "cloud_cover_percent": 36.0
+        }
+      ]
+    },
+    {
+      "name": "Napoli",
+      "region": "Campania",
+      "latitude": 40.8518,
+      "longitude": 14.2681,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.9,
+          "temperature_max_c": 28.2,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 17.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.2,
+          "temperature_max_c": 27.8,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 24.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.8,
+          "temperature_max_c": 28.2,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 17.0,
+          "cloud_cover_percent": 2.0
+        }
+      ]
+    },
+    {
+      "name": "Palermo",
+      "region": "Sicilia",
+      "latitude": 38.1157,
+      "longitude": 13.3615,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 27.1,
+          "temperature_max_c": 40.9,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 28.5,
+          "temperature_max_c": 39.4,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 29.0,
+          "temperature_max_c": 40.0,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 16.0,
+          "cloud_cover_percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Perugia",
+      "region": "Umbria",
+      "latitude": 43.1107,
+      "longitude": 12.3908,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 23.4,
+          "temperature_max_c": 37.1,
+          "precipitation_mm": 0.2,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 8.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.4,
+          "temperature_max_c": 35.9,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 7.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 22.9,
+          "temperature_max_c": 35.6,
+          "precipitation_mm": 0.7,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 18.0
+        }
+      ]
+    },
+    {
+      "name": "Pescara",
+      "region": "Abruzzo",
+      "latitude": 42.4618,
+      "longitude": 14.2161,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 26.0,
+          "temperature_max_c": 30.1,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 12.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.6,
+          "temperature_max_c": 29.6,
+          "precipitation_mm": 0.4,
+          "wind_max_kmh": 22.0,
+          "cloud_cover_percent": 24.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 24.8,
+          "temperature_max_c": 28.6,
+          "precipitation_mm": 2.9,
+          "wind_max_kmh": 12.0,
+          "cloud_cover_percent": 32.0
+        }
+      ]
+    },
+    {
+      "name": "Reggio Calabria",
+      "region": "Calabria",
+      "latitude": 38.1113,
+      "longitude": 15.6473,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 31.3,
+          "temperature_max_c": 36.8,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 1.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 32.0,
+          "temperature_max_c": 36.9,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 20.0,
+          "cloud_cover_percent": 0.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 30.9,
+          "temperature_max_c": 33.8,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 2.0
+        }
+      ]
+    },
+    {
+      "name": "Rieti",
+      "region": "Lazio",
+      "latitude": 42.4045,
+      "longitude": 12.8567,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 22.3,
+          "temperature_max_c": 34.2,
+          "precipitation_mm": 0.1,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 10.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 22.4,
+          "temperature_max_c": 33.3,
+          "precipitation_mm": 0.1,
+          "wind_max_kmh": 12.0,
+          "cloud_cover_percent": 11.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 22.9,
+          "temperature_max_c": 32.8,
+          "precipitation_mm": 0.5,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 7.0
+        }
+      ]
+    },
+    {
+      "name": "Roma",
+      "region": "Lazio",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.4,
+          "temperature_max_c": 36.2,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 1.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.7,
+          "temperature_max_c": 36.3,
+          "precipitation_mm": 0.4,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 10.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.3,
+          "temperature_max_c": 36.4,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Torino",
+      "region": "Piemonte",
+      "latitude": 45.0703,
+      "longitude": 7.6869,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 21.5,
+          "temperature_max_c": 31.3,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 12.0,
+          "cloud_cover_percent": 30.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 22.3,
+          "temperature_max_c": 31.1,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 13.0,
+          "cloud_cover_percent": 17.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 20.4,
+          "temperature_max_c": 30.2,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 11.0,
+          "cloud_cover_percent": 33.0
+        }
+      ]
+    },
+    {
+      "name": "Trieste",
+      "region": "Friuli-Venezia Giulia",
+      "latitude": 45.6495,
+      "longitude": 13.7768,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 19.5,
+          "temperature_max_c": 30.2,
+          "precipitation_mm": 3.1,
+          "wind_max_kmh": 22.0,
+          "cloud_cover_percent": 34.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 22.1,
+          "temperature_max_c": 30.1,
+          "precipitation_mm": 0.6,
+          "wind_max_kmh": 25.0,
+          "cloud_cover_percent": 38.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 19.5,
+          "temperature_max_c": 29.0,
+          "precipitation_mm": 3.4,
+          "wind_max_kmh": 24.0,
+          "cloud_cover_percent": 46.0
+        }
+      ]
+    },
+    {
+      "name": "Venezia",
+      "region": "Veneto",
+      "latitude": 45.4408,
+      "longitude": 12.3155,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 21.4,
+          "temperature_max_c": 31.3,
+          "precipitation_mm": 0.4,
+          "wind_max_kmh": 17.0,
+          "cloud_cover_percent": 30.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 21.4,
+          "temperature_max_c": 29.9,
+          "precipitation_mm": 1.2,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 37.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 21.9,
+          "temperature_max_c": 28.8,
+          "precipitation_mm": 1.0,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 47.0
+        }
+      ]
+    },
+    {
+      "name": "Verona",
+      "region": "Veneto",
+      "latitude": 45.4384,
+      "longitude": 10.9916,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 20.8,
+          "temperature_max_c": 30.3,
+          "precipitation_mm": 0.3,
+          "wind_max_kmh": 14.0,
+          "cloud_cover_percent": 24.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 18.7,
+          "temperature_max_c": 29.1,
+          "precipitation_mm": 2.8,
+          "wind_max_kmh": 21.0,
+          "cloud_cover_percent": 49.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Possibili piogge o rovesci",
+          "icon": "🌦️",
+          "temperature_min_c": 19.8,
+          "temperature_max_c": 27.4,
+          "precipitation_mm": 3.2,
+          "wind_max_kmh": 21.0,
+          "cloud_cover_percent": 53.0
+        }
+      ]
+    },
+    {
+      "name": "Viterbo",
+      "region": "Lazio",
+      "latitude": 42.4207,
+      "longitude": 12.1077,
+      "forecast": [
+        {
+          "day_label": "Oggi",
+          "date": "2026-07-19",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.6,
+          "temperature_max_c": 35.1,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 18.0,
+          "cloud_cover_percent": 8.0
+        },
+        {
+          "day_label": "Domani",
+          "date": "2026-07-20",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 24.1,
+          "temperature_max_c": 33.9,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 15.0,
+          "cloud_cover_percent": 5.0
+        },
+        {
+          "day_label": "Dopodomani",
+          "date": "2026-07-21",
+          "description": "Prevalentemente sereno",
+          "icon": "☀️",
+          "temperature_min_c": 25.6,
+          "temperature_max_c": 33.8,
+          "precipitation_mm": 0.0,
+          "wind_max_kmh": 18.0,
+          "cloud_cover_percent": 7.0
+        }
+      ]
+    }
+  ]
 }
