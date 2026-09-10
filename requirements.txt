@@ -1,2 +1,2 @@
-ecmwf-opendata==0.3.31
+ecmwf-opendata==0.3.34
 eccodes==2.47.0
